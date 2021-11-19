@@ -1,0 +1,2 @@
+# BeatlesSquares
+Beatles squares generator
