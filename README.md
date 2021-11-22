@@ -24,7 +24,7 @@ A Beatles square is a 4x4 table filled with members of The Beatles such that eac
 
 **Example of a Beatles square:**
 
-<img src="images/BeatlesSqaures/#003_ordin.png" alt="Beatles" width="400" height="400">
+<img src="images/BeatlesSquares/003_ordin.png" alt="Beatles" width="400" height="400">
 
 ## Types of Beatles squares
 
