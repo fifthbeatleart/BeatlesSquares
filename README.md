@@ -8,7 +8,7 @@ All 576 unique Beatles squares are <a href="images/BeatlesSquares/">here</a>.
 
 ## The Beatles
 
-The legendary Beatles are (in alphabetical order by last name):
+[The legendary Beatles](https://en.wikipedia.org/wiki/The_Beatles) are (in alphabetical order by last name):
 - *George Harrison*
 - *John Lennon*
 - *Paul McCartney*
@@ -63,3 +63,8 @@ python3.6+
 python3 ./generate.py plot_num
 
 where plot_num is the number of Beatles squares to plot, at most 576.
+
+## NFT collection
+
+Beatles squares is an NFT collection comprised of 576 unique items. The items are based on portraits of The Beatles, exclusively made for this collection, and a combinatorial design known as Latin square. There are 407 ordinary, 142 advanced, 23 rare, and 4 super rare squares. The collection is dedicated to a long-awaited release of The Beatles: Get Back documentary series. We are mixing art, science, and The Beatles to promote this series. Come together, right now, over NFT!
+
