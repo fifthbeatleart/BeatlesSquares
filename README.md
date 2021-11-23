@@ -1,10 +1,14 @@
-# Beatles squares generator
+# Beatles squares
 
 <p align="center">
 <b>This project mixes art, science, and The Beatles by introducing <i>Beatles squares</i></b>.
 <br>
 All 576 unique Beatles squares are <a href="images/BeatlesSquares/">here</a>.
 </p>
+
+## NFT collection
+
+*Beatles squares* is an NFT collection comprised of 576 unique images of Beatles squares. The collection is promoting and celebrating a long-awaited release of [The Beatles: Get Back](https://www.disneyplus.com/en-gb/series/the-beatles-get-back/7DcWEeWVqrkE) documentary series. The series will premiere on 25th November 2021 and the NFT drop is starting on [OpenSea](https://opensea.io/collection/beatlessquares) the same day. Come together, right now, over NFT!
 
 ## The Beatles
 
@@ -62,10 +66,6 @@ Based on the properties, 576 Beatles squares were divided into 4 classes: *ordin
 The alphabetical-cross-mirror square is:
 
 <img src="images/BeatlesSquares/001_alph-cross-mirror.png" alt="Beatles" width="400" height="400">
-
-## NFT collection
-
-*Beatles squares* is an NFT collection comprised of 576 unique images of Beatles squares. The collection is dedicated to a long-awaited release of [The Beatles: Get Back](https://www.disneyplus.com/en-gb/series/the-beatles-get-back/7DcWEeWVqrkE) documentary series. We are mixing art, science, and The Beatles to promote and celebrate this series. Come together, right now, over NFT!
 
 ## Generator
 
