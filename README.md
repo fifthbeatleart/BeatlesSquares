@@ -24,7 +24,7 @@ A Beatles square is a 4x4 table filled with members of The Beatles such that eac
 
 **Example of a Beatles square:**
 
-<img src="images/BeatlesSquares/003_ordin.png" alt="Beatles" width="400" height="400">
+<img src="images/BeatlesSquares/042_ordin.png" alt="Beatles" width="400" height="400">
 
 ## Types of Beatles squares
 
@@ -43,9 +43,13 @@ A Beatles square may have the following main properties:
 
 Based on these properties, 576 Beatles squares were divided into 4 classes: *ordinary*, *advanced*, *rare*, and *super rare*.
 - *ordinary*: 407 squares with no mentioned properties. The Beatles square from the example above belongs to this class.
-- *advanced*: 142 squares with exactly one of the following properties: parallel, cross, diagonal, mirror, parallel. 
+- *advanced*: 142 squares with exactly one of the following properties: cross, diagonal, mirror, parallel.
 - *rare*: 23 squares with two properties cross and mirror, i.e. cross-mirror squares.
 - *super rare* 4 alphabetical squares. In fact, the first of them is pure alphabetical, the second is alphabetical-mirror, the third is alphabetical-parallel, and the fourth is alphabetical-cross-mirror.
+
+The alphabetical-cross-mirror square is:
+
+<img src="images/BeatlesSquares/001_alph-cross-mirror.png" alt="Beatles" width="400" height="400">
 
 ## Generator
 
