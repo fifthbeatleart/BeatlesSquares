@@ -51,7 +51,9 @@ And here is an example of parallel one:
 
 <img src="images/BeatlesSquares/018_parall.png" width="400" height="400">
 
-Based on these properties, 576 Beatles squares were divided into 4 classes: *ordinary*, *advanced*, *rare*, and *super rare*.
+## Classes
+
+Based on the properties, 576 Beatles squares were divided into 4 classes: *ordinary*, *advanced*, *rare*, and *super rare*.
 - *ordinary*: 407 squares with no mentioned properties. The Beatles square from the example above belongs to this class.
 - *advanced*: 142 squares with exactly one of the following properties: cross, diagonal, mirror, parallel.
 - *rare*: 23 squares with two properties cross and mirror, i.e. cross-mirror squares.
@@ -63,7 +65,7 @@ The alphabetical-cross-mirror square is:
 
 ## NFT collection
 
-*Beatles squares* is an NFT collection where each of 576 images of a Beatles squares is an unique item. The collection is dedicated to a long-awaited release of [The Beatles: Get Back](https://www.disneyplus.com/en-gb/series/the-beatles-get-back/7DcWEeWVqrkE) documentary series. We are mixing art, science, and The Beatles to promote and celebrate this series. Come together, right now, over NFT!
+*Beatles squares* is an NFT collection comprised of 576 unique images of Beatles squares. The collection is dedicated to a long-awaited release of [The Beatles: Get Back](https://www.disneyplus.com/en-gb/series/the-beatles-get-back/7DcWEeWVqrkE) documentary series. We are mixing art, science, and The Beatles to promote and celebrate this series. Come together, right now, over NFT!
 
 ## Generator
 
