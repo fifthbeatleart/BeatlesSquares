@@ -20,7 +20,7 @@ Here they are on portraits painted with great respect and love in our studio:
 
 ## Beatles squares
 
-A Beatles square is a 4x4 table filled with members of The Beatles such that each row and each column is The Beatles, i.e. it contains all the four members.
+A Beatles square is a 4x4 table filled with members of The Beatles such that each row and each column is The Beatles, i.e. it contains all the four members. Beatles squares is a special case of a well-known combinatorial design known as [Latin square](https://en.wikipedia.org/wiki/Latin_square).
 
 **Example of a Beatles square:**
 
