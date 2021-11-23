@@ -20,7 +20,7 @@ Here they are on portraits painted with great respect and love in our studio:
 
 ## Beatles squares
 
-A Beatles square is a 4x4 table filled with members of The Beatles such that each row and each column contains all four members.
+A Beatles square is a 4x4 table filled with members of The Beatles such that each row and each column is The Beatles, i.e. it contains all the four members.
 
 **Example of a Beatles square:**
 
@@ -34,21 +34,18 @@ Let's enumerate cells of a Beatles square as follows:
 31 32 33 34  
 41 42 43 44  
 
-A Beatles square can have the following main properties:
+A Beatles square may have the following main properties:
 - *alphabetiacal* - the first row and first column are in alphabetical order by the last name, i.e. the order is: George Harrison, John Lennon, Paul McCartney, Ringo Starr. Cells of the first row are: 11 12 13 14, while cells of the first column are: 11 21 31 41.
-- *cross* - all four elements of the main diagonal are equal to each other, i.e. it contains only one member of the Beatles. The same holds for the main antidiagonal. As a result, a clear digonal cross is formed. 
-- *diagonal* - the main diagonal contains all four members of The Beatles, the same holds for the main antidiagonal. In other words, all elements of these diagonals are distinct just like in all rows and columns. The main diagonal is: 11 22 33 44, the main antidiagonal is: 14 23 32 41.
+- *cross* - all four elements of the main diagonal are equal to each other, i.e. it contains four instances of one member of the Beatles. The same holds for the main antidiagonal (but the member is different). As a result, a clear (digonal) cross is formed. 
+- *diagonal* - the main diagonal is The Beatles, i.e. it contains all the four members, the same holds for the main antidiagonal. In other words, all elements of these two diagonals are distinct just like in all rows and columns, so 10 The Beatles are formed instead of 8. The main diagonal is: 11 22 33 44, the main antidiagonal is: 41 32 23 14.
 - *mirror*
 - *parallel*
 
-Based on these properties, 576 Beatles squares were divided into *ordinary*, *advanced*, *rare*, and *super rare* squares.
-
-The *ordinary* class if formed by 407 Beatles squares with no mentioned properties. The Beatles square from the example above belongs to this class.
-
-There are only 4 *alphabetical* Beatles squares.  
-An example is:
-
-TODO
+Based on these properties, 576 Beatles squares were divided into 4 classes: *ordinary*, *advanced*, *rare*, and *super rare*.
+- *ordinary*: 407 squares with no mentioned properties. The Beatles square from the example above belongs to this class.
+- *advanced*: 142 squares with exactly one of the following properties: parallel, cross, diagonal, mirror, parallel. 
+- *rare*: 23 squares with two properties cross and mirror, i.e. cross-mirror squares.
+- *super rare* 4 alphabetical squares. In fact, the first of them is pure alphabetical, the second is alphabetical-mirror, the third is alphabetical-parallel, and the fourth is alphabetical-cross-mirror.
 
 ## Generator
 
