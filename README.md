@@ -81,5 +81,5 @@ where plot_num is the number of Beatles squares to plot, at most 576.
 
 ## Full version
 
-The current version is a restricted ones since Beatles squares are only generated but not saved to files as images.
+The current version is a restricted one since Beatles squares are only generated but not saved to files as images.
 Should you need the full version, please contact us.
