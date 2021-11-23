@@ -16,7 +16,7 @@ All 576 unique Beatles squares are <a href="images/BeatlesSquares/">here</a>.
 
 Here they are on portraits painted with great respect and love in our studio:
 
-<img src="images/Beatles/Beatles.png" alt="Beatles" width="400" height="100">
+<img src="images/Beatles/Beatles.png" width="400" height="100">
 
 ## Beatles squares
 
@@ -24,9 +24,9 @@ A Beatles square is a 4x4 table filled with members of The Beatles such that eac
 
 **Example of a Beatles square:**
 
-<img src="images/BeatlesSquares/042_ordin.png" alt="Beatles" width="400" height="400">
+<img src="images/BeatlesSquares/042_ordin.png" width="400" height="400">
 
-## Types of Beatles squares
+## Properties
 
 Let's enumerate cells of a Beatles square as follows:  
 11 12 13 14  
@@ -34,12 +34,22 @@ Let's enumerate cells of a Beatles square as follows:
 31 32 33 34  
 41 42 43 44  
 
+Cells of the first row are: 11 12 13 14, while ones fo the first column are: 11 21 31 41. Cellas of the main diagonal are: 11 22 33 44, the ones of the main antidiagonal are: 41 32 23 14.
+
 A Beatles square may have the following main properties:
-- *alphabetiacal* - the first row and first column are in alphabetical order by the last name, i.e. the order is: George Harrison, John Lennon, Paul McCartney, Ringo Starr. Cells of the first row are: 11 12 13 14, while cells of the first column are: 11 21 31 41.
+- *alphabetiacal* - the first row and first column are in alphabetical order by the last name, i.e. the order is: George Harrison, John Lennon, Paul McCartney, Ringo Starr.
 - *cross* - all four elements of the main diagonal are equal to each other, i.e. it contains four instances of one member of the Beatles. The same holds for the main antidiagonal (but the member is different). As a result, a clear (digonal) cross is formed. 
-- *diagonal* - the main diagonal is The Beatles, i.e. it contains all the four members, the same holds for the main antidiagonal. In other words, all elements of these two diagonals are distinct just like in all rows and columns, so 10 The Beatles are formed instead of 8. The main diagonal is: 11 22 33 44, the main antidiagonal is: 41 32 23 14.
-- *mirror*
-- *parallel*
+- *diagonal* - the main diagonal is The Beatles, i.e. it contains all the four members, the same holds for the main antidiagonal. In other words, all elements of these two diagonals are distinct just like in all rows and columns, so 10 The Beatles are formed instead of 8.
+- *mirror* -  the main diagonal is considered a mirror, i.e. cells from the left-bottom triangle are reflected to the ones from the right-top triangle. The same holds for the main antidiagonl.
+- *parallel* - each diagonal (or each antidiagonal) contains instances of only one member of The Beatles. As a result, the square looks like a set of parallel lines.
+
+An example of diagonal Beatles square is:
+
+<img src="images/BeatlesSquares/021_diag.png" width="400" height="400">
+
+And here is an example of parallel one:
+
+<img src="images/BeatlesSquares/018_parall.png" width="400" height="400">
 
 Based on these properties, 576 Beatles squares were divided into 4 classes: *ordinary*, *advanced*, *rare*, and *super rare*.
 - *ordinary*: 407 squares with no mentioned properties. The Beatles square from the example above belongs to this class.
