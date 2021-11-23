@@ -55,15 +55,19 @@ Based on these properties, 576 Beatles squares were divided into 4 classes: *ord
 - *ordinary*: 407 squares with no mentioned properties. The Beatles square from the example above belongs to this class.
 - *advanced*: 142 squares with exactly one of the following properties: cross, diagonal, mirror, parallel.
 - *rare*: 23 squares with two properties cross and mirror, i.e. cross-mirror squares.
-- *super rare* 4 alphabetical squares. In fact, the first of them is pure alphabetical, the second is alphabetical-mirror, the third is alphabetical-parallel, and the fourth is alphabetical-cross-mirror.
+- *super rare*: 4 alphabetical squares. In fact, only of them is pure alphabetical, the others are alphabetical-mirror, alphabetical-parallel, and alphabetical-cross-mirror.
 
 The alphabetical-cross-mirror square is:
 
 <img src="images/BeatlesSquares/001_alph-cross-mirror.png" alt="Beatles" width="400" height="400">
 
+## NFT collection
+
+*Beatles squares* is an NFT collection where each of 576 images of a Beatles squares is an unique item. The collection is dedicated to a long-awaited release of [The Beatles: Get Back](https://www.disneyplus.com/en-gb/series/the-beatles-get-back/7DcWEeWVqrkE) documentary series. We are mixing art, science, and The Beatles to promote and celebrate this series. Come together, right now, over NFT!
+
 ## Generator
 
-The script generator.py generates all of them and (optionally) plots images to files.
+The script generator.py generates all Beatles squares and (optionally) plots images to files.
 
 ## Required packages
 
@@ -75,7 +79,7 @@ python3 ./generate.py plot_num
 
 where plot_num is the number of Beatles squares to plot, at most 576.
 
-## NFT collection
+## Full version
 
-Beatles squares is an NFT collection comprised of 576 unique items. The items are based on portraits of The Beatles, exclusively made for this collection, and a combinatorial design known as Latin square. There are 407 ordinary, 142 advanced, 23 rare, and 4 super rare squares. The collection is dedicated to a long-awaited release of The Beatles: Get Back documentary series. We are mixing art, science, and The Beatles to promote this series. Come together, right now, over NFT!
-
+The current version is a restricted ones since Beatles squares are only generated but not saved to files as images.
+Should you need the full version, please contact us.
