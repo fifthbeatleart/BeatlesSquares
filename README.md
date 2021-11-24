@@ -8,7 +8,7 @@ All 576 unique Beatles squares are <a href="images/BeatlesSquares/">here</a>.
 
 ## NFT collection
 
-*Beatles squares* is an NFT collection comprised of 576 unique images of Beatles squares. The collection is promoting and celebrating a long-awaited release of [The Beatles: Get Back](https://www.disneyplus.com/en-gb/series/the-beatles-get-back/7DcWEeWVqrkE) documentary series. The series will premiere on 25th November 2021 and the NFT drop is starting on [OpenSea](https://opensea.io/collection/beatlessquares) the same day. Come together, right now, over NFT!
+*Beatles squares* is an NFT collection comprised of 576 unique items. The collection is promoting and celebrating a long-awaited release of [The Beatles: Get Back](https://www.disneyplus.com/en-gb/series/the-beatles-get-back/7DcWEeWVqrkE) documentary series. The series will premiere on 25th November 2021 and the NFT drop is starting on [OpenSea](https://opensea.io/collection/beatlessquares) the same day. Come together, right now, over NFT!
 
 ## The Beatles
 
@@ -38,7 +38,7 @@ Let's enumerate cells of a Beatles square as follows:
 31 32 33 34  
 41 42 43 44  
 
-Cells of the first row are: 11 12 13 14, while ones fo the first column are: 11 21 31 41. Cellas of the main diagonal are: 11 22 33 44, the ones of the main antidiagonal are: 41 32 23 14.
+Cells of the first row are 11 12 13 14, while ones of the first column are 11 21 31 41, for the main diagonal are 11 22 33 44, and finally for the main antidiagonal are 41 32 23 14.
 
 A Beatles square may have the following main properties:
 - *alphabetiacal* - the first row and first column are in alphabetical order by the last name, i.e. the order is: George Harrison, John Lennon, Paul McCartney, Ringo Starr.
@@ -57,19 +57,15 @@ And here is an example of parallel one:
 
 ## Classes
 
-Based on the properties, 576 Beatles squares were divided into 4 classes: *ordinary*, *advanced*, *rare*, and *super rare*.
-- *ordinary*: 407 squares with no mentioned properties. The Beatles square from the example above belongs to this class.
+There are 576 unique Beatles squares. Based on the properties, they are divided into 4 classes: *ordinary*, *advanced*, *rare*, and *super rare*.
+- *ordinary*: 407 squares with no mentioned properties. The Beatles square from the first example belongs to this class.
 - *advanced*: 142 squares with exactly one of the following properties: cross, diagonal, mirror, parallel.
 - *rare*: 23 squares with two properties cross and mirror, i.e. cross-mirror squares.
-- *super rare*: 4 alphabetical squares. In fact, only of them is pure alphabetical, the others are alphabetical-mirror, alphabetical-parallel, and alphabetical-cross-mirror.
+- *super rare*: 4 alphabetical squares. In fact, only one of them is pure alphabetical, while the others are alphabetical-mirror, alphabetical-parallel, and alphabetical-cross-mirror.
 
 The alphabetical-cross-mirror square is:
 
 <img src="images/BeatlesSquares/001_alph-cross-mirror.png" alt="Beatles" width="400" height="400">
-
-## Generator
-
-The script generator.py generates all Beatles squares and (optionally) plots images to files.
 
 ## Required packages
 
@@ -79,7 +75,9 @@ python3.6+
 
 python3 ./generate.py plot_num
 
-where plot_num is the number of Beatles squares to plot, at most 576.
+  plot_num: integer; the number of Beatles squares to plot; default is 0; maximal value is 576.
+
+The script generates all Beatles squares and plot images of the first plot_num of them to files.
 
 ## Full version
 
