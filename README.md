@@ -10,6 +10,10 @@ All 576 unique Beatles squares are <a href="images/BeatlesSquares/">here</a>.
 
 *Beatles squares* is an NFT collection comprised of 576 unique items. The collection is promoting and celebrating a long-awaited release of [The Beatles: Get Back](https://www.disneyplus.com/en-gb/series/the-beatles-get-back/7DcWEeWVqrkE) documentary series. The series will premiere on 25th November 2021 and the NFT drop is starting on [OpenSea](https://opensea.io/collection/beatlessquares) the same day. Come together, right now, over NFT!
 
+## Media
+As seen on 
+[![name](images/BeatlesSquares/0ReQIQT0.png)](https://nftcalendar.io/event/beatles-squares/)
+
 ## The Beatles
 
 [The legendary Beatles](https://en.wikipedia.org/wiki/The_Beatles) are (in alphabetical order by last name):
